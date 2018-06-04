@@ -35,3 +35,4 @@ $ git status ；将要被提交的修改包括readme.txt
 $ git commit -m "add distributed"
 $ git status ;当前没有需要提交的修改，而且，工作目录是干净（working tree clean）的
 。
+Git is free software distributed under the GPL.
