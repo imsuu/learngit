@@ -63,3 +63,16 @@ eaadf4e HEAD@{4}: commit (initial): wrote a readme file
 git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区。当我们用HEAD时，表示最新的版本。
 再用git status查看一下，现在暂存区是干净的，工作区有修改
 git checkout -- readme.txt 丢弃工作区的修改
+
+git add readme.txt
+git commit -m ""
+git push origin master
+
+创建dev分支，然后切换到dev分支
+$ git checkout -b dev
+git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+$ git branch dev
+$ git checkout dev
+git branch命令查看当前分支
+
+
