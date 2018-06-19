@@ -76,5 +76,9 @@ $ git checkout dev
 git branch命令查看当前分支
 当前分支前面会标一个*号
 
+可以在dev分支上正常提交
+dev分支的工作完成，我们就可以切换回master分支
+$ git checkout master
 
-
+把dev分支的工作成果合并到master分支上
+$ git merge dev
