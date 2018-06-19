@@ -74,5 +74,7 @@ git checkout命令加上-b参数表示创建并切换，相当于以下两条命
 $ git branch dev
 $ git checkout dev
 git branch命令查看当前分支
+当前分支前面会标一个*号
+
 
 
