@@ -82,3 +82,13 @@ $ git checkout master
 
 把dev分支的工作成果合并到master分支上
 $ git merge dev
+
+删除dev分支
+$ git branch -d dev
+
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
